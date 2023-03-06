@@ -1,0 +1,222 @@
+@import url("https://p.typekit.net/p.css?s=1&k=wql7yel&ht=tk&f=1864.1865.1866.1867&a=119903838&app=typekit&e=css");
+
+@font-face {
+    font-family: "apolline";
+    src: url("https://use.typekit.net/af/b4c6df/000000000000000077359919/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b4c6df/000000000000000077359919/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b4c6df/000000000000000077359919/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "apolline";
+    src: url("https://use.typekit.net/af/e2ff9f/00000000000000007735991b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/e2ff9f/00000000000000007735991b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/e2ff9f/00000000000000007735991b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+    font-display: auto;
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "apolline";
+    src: url("https://use.typekit.net/af/ecdb7f/00000000000000007735991d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/ecdb7f/00000000000000007735991d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/ecdb7f/00000000000000007735991d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "apolline";
+    src: url("https://use.typekit.net/af/71cd69/00000000000000007735991e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/71cd69/00000000000000007735991e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/71cd69/00000000000000007735991e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+    font-display: auto;
+    font-style: italic;
+    font-weight: 700;
+    font-stretch: normal;
+}
+
+
+/* General Styles */
+
+body {
+    background-color: #262421;
+    color: #A69E94;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*    width: 100vh;*/
+    height: 100vh;
+}
+
+nav {
+    background-color: #517373;
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #262421;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #8C857B;
+}
+
+main {
+    background-color: darkslategray;
+    max-width: 1200px;
+    margin: 100px 100px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+li.HomeSelected {
+    background-color: #A69E94;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+li.Content2Selected {
+    background-color: #A69E94;
+    border-radius: 5px;
+    padding: 5px 5px;
+    height: 100%
+}
+
+li.Content3Selected {
+    background-color: #A69E94;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+li.Content4Selected {
+    background-color: #A69E94;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+li.ContactSelected {
+    background-color: #A69E94;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+
+/* Landing Page Styles */
+
+.tk-apolline {
+    font-family: "apolline", serif;
+}
+
+header {
+    background-image: url('landing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin: 50px;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+
+/* About Me Page Styles */
+
+
+h1.about {
+    background-color: pink;
+    color: darkslategrey;
+    display: flex;
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    padding: 100px auto;
+}
+
+/* Content Page Styles */
+
+.image-grid {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.row>div {
+    flex-basis: 50%;
+    margin: 80px 30px;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img.sizing {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contact-label {
+    display: flex;
+    margin: 16px 0;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.contact-textarea {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.contact-submitbutton {
+    float: right;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 4px 12px;
+    background-color: #44986b;
+}
